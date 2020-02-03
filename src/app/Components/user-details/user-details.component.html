@@ -1,0 +1,15 @@
+<div class="jumbotron">
+    <div class="container">
+    <h1 class="display-3">{{user.name.firstName+' '+user.name.lastName}}</h1>  
+      <p>Email ID: {{user.email}}</p>
+      <p>Gender : {{user.gender}}</p> 
+        
+          <button  class="btn btn-secondary btn-lg" ><a class="nav-link"  style="text-decoration : none;">Update User</a></button>
+        
+          &nbsp;&nbsp;&nbsp;
+          <button  class="btn btn-secondary btn-lg" (click)="deleteUser()">Delete User</button>
+      
+    </div>
+</div>
+<!-- <app-update-cust [customer]="user"></app-update-cust> -->
+<!-- <router-outlet></router-outlet>     -->

@@ -1,0 +1,18 @@
+<!--<app-sub-nav></app-sub-nav>-->
+<div class="container" id="list">
+<div class="row">
+  <div class="col-md-4">
+    <ul class="list-group">
+       <li class="list-group-item" *ngFor="let user of users">
+       <app-user [user]='user'></app-user>
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-8"><router-outlet></router-outlet>
+    <!-- <div class="jumbotron jumbotron-fluid">
+      <h1 class="display-4">List of all Customers</h1>
+    </div>
+      -->
+  </div>
+</div>
+</div>
