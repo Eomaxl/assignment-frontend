@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "ng": "ng",
-    "start": "ng serve --proxy-config proxy.json --ssl true",
+    "start": "nodemon src/index.js",
     "build": "ng build ",
     "test": "ng test",
     "lint": "ng lint",
